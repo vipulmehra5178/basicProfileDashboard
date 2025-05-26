@@ -1,5 +1,6 @@
 @import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 * {
@@ -49,6 +50,56 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
+}
+
+/* Navbar Title Styles */
+.navbar-title {
+  font-family: 'Poppins', sans-serif;
+  color: #d1fae5;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-title:hover {
+  color: #a7f3d0;
+  transform: scale(1.05);
+}
+
+/* Navbar Toggle Button */
+.navbar-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 20;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, left 0.3s ease-in-out;
+}
+
+/* Adjust button position when navbar is open */
+.navbar-open ~ .navbar-toggle {
+  left: calc(1rem + 16rem); /* 16rem = 256px (w-64), 1rem = padding */
+}
+
+.navbar-toggle:hover {
+  background-color: #1e40af;
+}
+
+/* Navbar Animation */
+.navbar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-closed {
+  transform: translateX(-100%);
+}
+
+.navbar-open {
+  transform: translateX(0);
 }
 
 /* Animations */
@@ -126,13 +177,20 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
   nav {
-    position: static;
-    width: 100%;
-    height: auto;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 64;
+    height: 100vh;
   }
   main {
     margin-left: 0;
     padding: 1rem;
+  }
+  .navbar-open + main {
+    margin-left: 0;
+  }
+  .navbar-open ~ .navbar-toggle {
+    left: calc(1rem + 16rem);
   }
 }

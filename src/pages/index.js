@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="flex">
       <Navbar />
-      <main className="flex-1 ml-64 p-6">
+      <main className="flex-1 p-6 transition-all duration-300" style={{ marginLeft: '0' }}>
         <ProfileSection />
         <AcademicsSection />
         <ExperienceSection />

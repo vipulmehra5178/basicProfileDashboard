@@ -7,7 +7,7 @@ export default function ProfileSection() {
     <section id="profile" className="py-8">
       <div className="card max-w-4xl mx-auto">
         <img
-          src="/codeImg.png"
+          src="/img_kight.jpg"
           alt="Vipul Mehra"
           className="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-blue-primary pulse-neon scale-in"
         />
