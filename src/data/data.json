@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "name": "Vipul Mehra",
+    "bio": "Full Stack Developer (MERN) with expertise in MongoDB, Express.js, React, and Node.js, specializing in building dynamic and scalable web applications. Passionate about creating efficient, user-friendly solutions with clean and maintainable code.",
+    "contact": {
+      "github": "https://github.com/vipulmehra5178",
+      "address": "C-690 A Sudershan Park, New Delhi-110015",
+      "email": "vipulmehra02899@gmail.com"
+    }
+  },
+  "education": [
+    {
+      "institution": "Chandigarh University",
+      "degree": "Bachelor of Engineering, B.E. in Computer Science",
+      "location": "Mohali, Punjab",
+      "duration": "2020 - 2024"
+    },
+    {
+      "institution": "Shaheed Bishan Singh Memorial Ser. Sec. School",
+      "degree": "Senior Secondary (CBSE), XII : PCM",
+      "location": "New Delhi",
+      "duration": "2018 - 2019"
+    },
+    {
+      "institution": "Aadarsh Public School",
+      "degree": "Secondary (CBSE), X",
+      "location": "New Delhi",
+      "duration": "2016 - 2017"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Web Development Intern",
+      "company": "Prodigy InfoTech",
+      "duration": "March 2025 - April 2025",
+      "description": [
+        "Gained practical experience in building and deploying web applications.",
+        "Engaged in hands-on projects to develop and refine full-stack web solutions.",
+        "Collaborated with cross-functional teams and followed company guidelines."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Kaam Karo - Jobs Made Easy",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Bootstrap"],
+      "description": "A full-stack job portal built with the MERN stack, enabling employers to post jobs and candidates to apply by uploading resumes. Features JWT-based authentication, role-based access, and a responsive UI."
+    },
+    {
+      "name": "LuxWatch Store",
+      "technologies": ["React", "MongoDB", "Express.js"],
+      "description": "A dynamic React-based e-commerce website showcasing a curated collection of watches. Designed and implemented a custom RESTful API using Express.js and MongoDB."
+    },
+    {
+      "name": "Eats and Treats",
+      "technologies": ["React", "MongoDB", "Tailwind CSS"],
+      "description": "A responsive restaurant website with a dynamic menu fetched from MongoDB and a table booking system for real-time reservations."
+    }
+  ],
+  "skills": {
+    "languages": ["C++", "Java", "Python", "JavaScript", "HTML/CSS", "R"],
+    "tools": ["Visual Studio", "Qt Designer", "Android Studio", "GitHub", "WordPress", "Postman"],
+    "frameworks": ["Express.js", "React", "Node.js", "RESTful API", "Redux", "Firebase"],
+    "other": ["Machine Learning", "Data Science", "TensorFlow", "Pandas", "NumPy", "Scikit-learn"],
+    "databases": ["MongoDB", "MySQL"]
+  },
+  "certifications": [
+    "Java Full Stack (Wipro TalentNext)",
+    "Machine Learning (Internshala Trainings)",
+    "Web Development (Internshala Trainings)",
+    "Java Programming (Springboard)",
+    "Python For Everybody (Coursera)",
+    "Android App Development (Internshala Trainings)"
+  ]
+}
